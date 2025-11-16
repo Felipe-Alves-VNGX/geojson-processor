@@ -1,0 +1,56 @@
+{
+  "operations": [
+    {
+      "type": "groupby",
+      "columns": ["regiao"],
+      "aggregations": {
+        "populacao": "sum",
+        "area_km2": "sum",
+        "pib_milhoes": "sum"
+      },
+      "keep_geometry": false
+    },
+    {
+      "type": "calculate",
+      "calculations": [
+        {
+          "new_column": "densidade_regional",
+          "expression": "populacao / area_km2"
+        }
+      ]
+    },
+    {
+      "type": "sort",
+      "columns": ["populacao"],
+      "ascending": false
+    }
+  ],
+  "outputs": [
+    {
+      "type": "spreadsheet",
+      "path": "examples/output/dados_por_regiao.xlsx",
+      "sheet_name": "Agregação por Região"
+    },
+    {
+      "type": "bar_chart",
+      "path": "examples/output/populacao_por_regiao.png",
+      "x": "regiao",
+      "y": "populacao",
+      "title": "População Total por Região",
+      "xlabel": "Região",
+      "ylabel": "População Total",
+      "color": "teal",
+      "figsize": [10, 6]
+    },
+    {
+      "type": "pie_chart",
+      "path": "examples/output/pib_por_regiao.png",
+      "column": "regiao",
+      "values": "pib_milhoes",
+      "title": "Distribuição do PIB por Região",
+      "autopct": "%1.1f%%",
+      "explode_max": true,
+      "figsize": [10, 10]
+    }
+  ]
+}

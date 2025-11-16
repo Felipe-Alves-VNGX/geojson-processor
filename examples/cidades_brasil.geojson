@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São Paulo",
+        "estado": "SP",
+        "regiao": "Sudeste",
+        "populacao": 12325232,
+        "area_km2": 1521.11,
+        "pib_milhoes": 699280,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.6333, -23.5505]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Rio de Janeiro",
+        "estado": "RJ",
+        "regiao": "Sudeste",
+        "populacao": 6747815,
+        "area_km2": 1200.27,
+        "pib_milhoes": 354936,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.1729, -22.9068]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Brasília",
+        "estado": "DF",
+        "regiao": "Centro-Oeste",
+        "populacao": 3055149,
+        "area_km2": 5760.78,
+        "pib_milhoes": 265847,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.8825, -15.7942]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Salvador",
+        "estado": "BA",
+        "regiao": "Nordeste",
+        "populacao": 2886698,
+        "area_km2": 693.45,
+        "pib_milhoes": 74644,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.5108, -12.9714]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Fortaleza",
+        "estado": "CE",
+        "regiao": "Nordeste",
+        "populacao": 2686612,
+        "area_km2": 314.93,
+        "pib_milhoes": 62856,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-38.5434, -3.7172]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Belo Horizonte",
+        "estado": "MG",
+        "regiao": "Sudeste",
+        "populacao": 2521564,
+        "area_km2": 331.40,
+        "pib_milhoes": 96722,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-43.9378, -19.9167]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Manaus",
+        "estado": "AM",
+        "regiao": "Norte",
+        "populacao": 2219580,
+        "area_km2": 11401.09,
+        "pib_milhoes": 84948,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-60.0217, -3.1190]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Curitiba",
+        "estado": "PR",
+        "regiao": "Sul",
+        "populacao": 1948626,
+        "area_km2": 435.04,
+        "pib_milhoes": 99595,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.2731, -25.4284]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Recife",
+        "estado": "PE",
+        "regiao": "Nordeste",
+        "populacao": 1653461,
+        "area_km2": 218.50,
+        "pib_milhoes": 63934,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-34.8813, -8.0476]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Porto Alegre",
+        "estado": "RS",
+        "regiao": "Sul",
+        "populacao": 1492530,
+        "area_km2": 496.68,
+        "pib_milhoes": 89721,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.2177, -30.0346]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Campinas",
+        "estado": "SP",
+        "regiao": "Sudeste",
+        "populacao": 1213792,
+        "area_km2": 795.70,
+        "pib_milhoes": 68952,
+        "tipo": "Interior"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-47.0608, -22.9099]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Guarulhos",
+        "estado": "SP",
+        "regiao": "Sudeste",
+        "populacao": 1392121,
+        "area_km2": 318.68,
+        "pib_milhoes": 62345,
+        "tipo": "Interior"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-46.5333, -23.4628]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Goiânia",
+        "estado": "GO",
+        "regiao": "Centro-Oeste",
+        "populacao": 1536097,
+        "area_km2": 739.49,
+        "pib_milhoes": 53652,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-49.2539, -16.6869]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "Belém",
+        "estado": "PA",
+        "regiao": "Norte",
+        "populacao": 1499641,
+        "area_km2": 1059.46,
+        "pib_milhoes": 35612,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-48.5044, -1.4558]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "nome": "São Luís",
+        "estado": "MA",
+        "regiao": "Nordeste",
+        "populacao": 1108975,
+        "area_km2": 834.78,
+        "pib_milhoes": 24123,
+        "tipo": "Capital"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-44.3028, -2.5387]
+      }
+    }
+  ]
+}

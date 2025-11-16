@@ -1,0 +1,57 @@
+{
+  "operations": [
+    {
+      "type": "calculate",
+      "calculations": [
+        {
+          "new_column": "densidade",
+          "expression": "populacao / area_km2"
+        },
+        {
+          "new_column": "pib_per_capita",
+          "expression": "(pib_milhoes * 1000000) / populacao"
+        }
+      ]
+    },
+    {
+      "type": "filter",
+      "column": "populacao",
+      "operator": ">",
+      "value": 1500000
+    },
+    {
+      "type": "sort",
+      "columns": ["populacao"],
+      "ascending": false
+    }
+  ],
+  "outputs": [
+    {
+      "type": "spreadsheet",
+      "path": "examples/output/cidades_grandes.xlsx",
+      "sheet_name": "Cidades Grandes",
+      "freeze_panes": true,
+      "auto_filter": true
+    },
+    {
+      "type": "bar_chart",
+      "path": "examples/output/populacao_por_cidade.png",
+      "x": "nome",
+      "y": "populacao",
+      "title": "População das Maiores Cidades do Brasil",
+      "xlabel": "Cidade",
+      "ylabel": "População",
+      "color": "steelblue",
+      "rotation": 45,
+      "figsize": [12, 6]
+    },
+    {
+      "type": "simple_map",
+      "path": "examples/output/mapa_cidades.png",
+      "color": "red",
+      "markersize": 100,
+      "alpha": 0.6,
+      "title": "Localização das Maiores Cidades"
+    }
+  ]
+}
